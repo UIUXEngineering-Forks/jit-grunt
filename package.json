@@ -16,7 +16,7 @@
     "email": "shotaro.tsubouchi@gmail.com"
   },
   "files": [
-    "lib",
+    "src",
     "jit-grunt.js"
   ],
   "main": "jit-grunt",
@@ -50,8 +50,8 @@
     "power-assert": "^1.2.0",
     "sinon": "^1.17.0"
   },
-  "peerDependencies": {
-    "grunt": ">=0.4.0"
+  "dependencies": {
+    "grunt": ">=1.0.1"
   },
   "engines": {
     "node": ">=0.10.0"
